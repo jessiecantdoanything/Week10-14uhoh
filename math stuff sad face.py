@@ -20,4 +20,9 @@ def archimedes(numSides):
 print(archimedes(4))
 print(archimedes(9))
 print(archimedes(18))
-print(sides, archimedes(sides))
+
+
+for sides in range(40, 400, 40):
+    print(sides, archimedes(sides))
+
+print(math.pi)
