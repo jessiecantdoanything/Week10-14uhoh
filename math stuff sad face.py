@@ -87,8 +87,7 @@ for Fibonacci in range(1, 11,):
     acc = acc + Fibonacci
 print(acc)
 
-# Write a function to compute the Nth Fibonacci number, where N is a parameter.
-#   You may assume that N will be greater than or equal to 3.
+# Write a function to compute the Nth Fibonacci number, where N is a parameter. You may assume that N will be greater than or equal to 3.
 def Fibonacci(N):
     acc = 0
     for Fibonacci in range(1, N):
@@ -96,3 +95,11 @@ def Fibonacci(N):
     print(acc)
 print(Fibonacci(11))
 
+# doo doo dooooooooooooooooooooooooooooo
+# now we will learn what a monte carlo simulation is :")
+
+# random numbers
+
+import random
+
+print(random.random())
