@@ -103,3 +103,43 @@ print(Fibonacci(11))
 import random
 
 print(random.random())
+
+# Boolean Expressions
+# <, <=, >, >=, =, !=
+# Compound Boolean Expressions
+# and, or, not
+
+dogWeight = 25
+print(dogWeight < 25)
+catWeight = 12
+print(dogWeight >= 25 or catWeight >= 10)
+print(not catWeight <= 10)
+
+# decision making skills
+
+alice = 20
+bob = 15
+carol = 25
+ans = 0
+ans = 0
+if alice > 20:
+    if bob < 50:
+        ans = 150
+    else:
+        ans = 300
+else:
+    if carol > 500:
+        ans = 200
+    else:
+        ans = 75
+print(ans)
+
+value = 75
+if value > 100:
+    print("bigger than 100")
+elif value > 80:
+    print("bigger than 80")
+elif value > 45:
+    print("bigger than 45")
+else:
+    print("not bigger than much")
